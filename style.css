@@ -1,3 +1,8 @@
+body{
+	background-color: black;
+	margin-left: 500px;
+	margin-top: 50px;
+}
 #cal{
 	width: 400px;
 	height: 300px;
@@ -6,4 +11,16 @@
 	width: 100%;
 	height: 50px;
 	font-size: 25px;
+}
+
+.bstyle{
+	border-radius: 50%;
+	border: none;
+
+}
+.btnstyle{
+	background-color: rgba(255, 99, 71, 0.7);
+}
+.tstyle{
+	text-align: center;
 }
