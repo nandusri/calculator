@@ -2,8 +2,9 @@
 <html>
 <head>
 	<title>calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body>	
 <form name="cal">
 	<table id="cal" border="2">
 		<tr>
@@ -31,7 +32,7 @@
 			<td><input type="button" id="btn" value="-" OnClick="cal.display.value+='-'"></td>
 			<td><input type="button" id="btn" value="0" OnClick="cal.display.value+='0'"></td>
 			<td><input type="button" id="btn" value="+" OnClick="cal.display.value+='+'" ></td>
-			<td><input type="button" id="btn" value="=" ></td>
+			<td><input type="button" id="btn" value="=" onclick="cal.display.value=eval(cal.display.value)" ></td>
 		</tr>
 	</table>
 </form>
